@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>web page</title>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000000;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#about">About</a></li>
+  <li><a href="#job">job</a></li>
+  <li><a href="#cv">cv</a></li>
+  <li><a href="#contact">contact</a></li>
+</ul>
+<!--this is the about section-->
+<h1><b>ABOUT</b></h1>
+<form>
+    <label>Name:</label>
+    <input type="text" name="first name" placeholder="Type your name here" />
+    <br />
+
+    <label>Number:</label>
+    <input type="number" name="number" />
+    <br />
+
+    <label>Birth Date:</label>
+    <input type="date" name="birthday" />
+    <br />
+<!--this is the job section-->
+</form>
+<br />
+<h2><b>JOB</b></h2>
+<form>
+    <label>dream job:</label>
+    <input type="text" name="job"/>
+    <br />
+</form>
+<br />
+<!--this is the cv section-->
+<h3><b>YOUR CV</b></h3>
+<form>
+    <label>Type in your cv:</label>
+    <textarea name="message" cols="30" rows="5">
+    </textarea>
+</form>
+<br />
+<!--this is the contact section-->
+<h4><b>CONTACT</b></h4>
+<footer>
+    <label>SUPPORT'S NUMBER:</label>
+    <input type="number" name="number" value="23123456" />
+  </footer>
+</body>
+</html>
+
+
